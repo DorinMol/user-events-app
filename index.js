@@ -3,7 +3,7 @@ const express = require("express");
 const log = require("./services/log");
 require("./startup/db");
 const userRouter = require("./routes/users");
-const userRouter = require("./routes/login");
+const loginRouter = require("./routes/login");
 
 const app = express();
 
