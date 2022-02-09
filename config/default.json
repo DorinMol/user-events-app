@@ -1,0 +1,15 @@
+{
+  "db": {
+    "user": "mongo",
+    "pass": "mongo",
+    "host": "thinkpad",
+    "port": "27017",
+    "name": "user-events",
+    "auth": "admin",
+    "options": {
+      "useCreateIndex": true,
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true
+    }
+  }
+}

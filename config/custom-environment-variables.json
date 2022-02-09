@@ -1,0 +1,10 @@
+{
+  "db": {
+    "user": "APP_MONGODB_USER",
+    "pass": "APP_MONGODB_PASS",
+    "host": "APP_MONGODB_HOST",
+    "port": "APP_MONGODB_PORT",
+    "name": "APP_MONGODB_NAME",
+    "auth": "APP_MONGODB_AUTH"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "user-events-app",
+  "version": "1.0.0",
+  "description": "Sample application, similar to a TODO just for kicks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node ./mock/seedDb.js"
+  },
+  "author": "DorinMol",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.0",
+    "validator": "^13.5.2",
+    "winston": "^3.3.3"
+  }
+}
